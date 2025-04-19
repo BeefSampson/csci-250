@@ -1,4 +1,4 @@
-package com.oxidalwave.beefsampson.csci250.project00;
+package csci250.project00;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
