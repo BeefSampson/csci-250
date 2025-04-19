@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "vscjava.vscode-maven",
+    "aaron-bond.better-comments",
+    "mikestead.dotenv",
+    "oderwat.indent-rainbow"
+  ]
+}
