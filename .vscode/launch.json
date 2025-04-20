@@ -3,26 +3,13 @@
   // Hover to view descriptions of existing attributes.
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
-  "inputs": [
-    {
-      "id": "mainClass",
-      "type": "promptString",
-      "description": "Enter the main class name (e.g., csci250.projectXX.App)"
-    }
-  ],
   "configurations": [
     {
       "type": "java",
-      "name": "Launch Java Program",
+      "name": "Project1",
       "request": "launch",
-      "mainClass": "${input:mainClass}",
-      "preLaunchTask": "build",
-    },
-    {
-      "type": "java",
-      "name": "Current File",
-      "request": "launch",
-      "mainClass": "${file}"
+      "mainClass": "Project1",
+      "projectName": "csci-250"
     }
   ]
 }

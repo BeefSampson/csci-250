@@ -4,15 +4,19 @@
     {
       "label": "build",
       "type": "shell",
-      "command": "mvn",
+      "command": "javac",
       "args": [
-        "package"
+        "-d",
+        "${workspaceFolder}/target/classes",
+        "${workspaceFolder}/**/*.java"
       ],
       "group": {
         "kind": "build",
         "isDefault": true
       },
-      "problemMatcher": [],
+      "problemMatcher": [
+        "$javac"
+      ],
       "detail": "Generated task by Java Extension Pack."
     }
   ]
