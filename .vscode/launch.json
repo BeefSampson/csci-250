@@ -7,7 +7,7 @@
     {
       "id": "mainClass",
       "type": "promptString",
-      "description": "Enter the main class name (e.g., com.oxidalwave.beefsampson.csci250.MainClass)"
+      "description": "Enter the main class name (e.g., csci250.projectXX.App)"
     }
   ],
   "configurations": [
